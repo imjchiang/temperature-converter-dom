@@ -1,3 +1,40 @@
-h1 {
+h1 
+{
   color: blue;
 }
+
+input
+{
+  width: 100px;
+  height: 50px;
+  position: relative;
+  display: block;
+  margin-left: 50%;
+  left: -75px;
+  text-align: center;
+  font-size: 24px;
+}
+
+span.buttons
+{
+  position: relative;
+  margin-left: 50%;
+  left: -110px;
+}
+
+button
+{
+  width: 75px;
+  margin: 10px 5px 0px 5px;
+}
+
+button:hover
+{
+  color: orange;
+}
+
+.empty:hover
+{
+  color: red;
+}
+
